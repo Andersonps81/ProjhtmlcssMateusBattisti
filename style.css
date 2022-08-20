@@ -15,12 +15,12 @@ font-ize:30px;
 height: 60px;
   }
   
- #navbar he, #navbar ul, #navbar-list li {
+ #navbar he, #navbar ul, #navbar-list li, #navbar nav {
   display: inline-block; 
   }
 
   #navbar h2 {
-  margun: 0;
+  margin: 0;
   line-height:60px;
   margin-left: 55px; 
   }
@@ -31,4 +31,17 @@ transform: rotate(45deg);
 position: absolute;
 top: 10px;
   }
+ #navbar nav {
+float: right;
+margin-top: 22px;
+}
+#navbar li {
+margin:0 10px;
+}
+
+#navbar-list li a {
+text-decoration: none;
+color: #fff;
+}
+
 
